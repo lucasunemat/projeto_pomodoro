@@ -3,13 +3,14 @@
  * npm start = Inicia o projeto
  */
 
-//import React from 'react';
-//import logo from './logo.svg';
+import React from 'react';
+import {PomodoroTimer} from './components/pomodoro-timer';
 
 function App(): JSX.Element {
   return (
     <div className="App">
       <h1>Olá!</h1>
+      <PomodoroTimer />
     </div>
   );
 }
