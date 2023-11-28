@@ -1,6 +1,10 @@
+/**
+ * npx create-react-app my-app --template typescript = Cria um projeto React com Typescript
+ * npm start = Inicia o projeto
+ */
+
 //import React from 'react';
 //import logo from './logo.svg';
-import './App.css';
 
 function App(): JSX.Element {
   return (
