@@ -1,5 +1,9 @@
 import React from 'react';
 
-export function PomodoroTimer(props): JSX.Element {
+interface Props {
+    defaultPomodoroTimer: number;
+}
+
+export function PomodoroTimer(props: Props): JSX.Element {
     return <div>Olá, world!</div>
 }

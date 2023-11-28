@@ -6,11 +6,12 @@
 import React from 'react';
 import {PomodoroTimer} from './components/pomodoro-timer';
 
+//propriedade defaultPomodoroTimer é compatível com a interface 
+//que usei lá no pomodoro-timer e que setei como algo dele
 function App(): JSX.Element {
   return (
     <div className="App">
-      <h1>Olá!</h1>
-      <PomodoroTimer />
+      <PomodoroTimer defaultPomodoroTimer={1500} />
     </div>
   );
 }
